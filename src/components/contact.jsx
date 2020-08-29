@@ -9,13 +9,20 @@ export class Contact extends Component {
             <div className="col-md-8">
               <div className="row">
                 <div className="section-title">
-                  <h2>Get In Touch</h2>
+                <div className="mapouter"style={{position:'relative', textAlign:'right', height:'500px', width:'600px'}}>
+                  <div className="gmap_canvas" style={{overflow:'hidden', background:'none !important',height:'500px', width:'600px'}}>
+                    <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=17.429556%2C%2075.193750&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style={{marginTop:'30px'}}></iframe>
+                    <a href="https://123movies-en.org/en/">123movies free online</a>
+                    </div>
+                   </div>
+
+                  {/* <h2>Get In Touch</h2>
                   <p>
                     Please fill out the form below to send us an email and we
                     will get back to you as soon as possible.
-                  </p>
+                  </p> */}
                 </div>
-                <form name="sentMessage" id="contactForm" noValidate>
+                {/* <form name="sentMessage" id="contactForm" noValidate>
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -57,8 +64,8 @@ export class Contact extends Component {
                   <button type="submit" className="btn btn-custom btn-lg">
                     Send Message
                   </button>
-                </form>
-              </div>
+                </form>*/}
+              </div> 
             </div>
             <div className="col-md-3 col-md-offset-1 contact-info">
               <div className="contact-item">
@@ -100,14 +107,14 @@ export class Contact extends Component {
                     </li>
                     <li>
                       <a href={this.props.data ? this.props.data.twitter : "/"}>
-                        <i className="fa fa-twitter"></i>
+                        <i className="fa fa-whatsapp"></i>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href={this.props.data ? this.props.data.youtube : "/"}>
                         <i className="fa fa-youtube"></i>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -117,10 +124,7 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 Issaaf Kattan React Land Page Template. Design by{" "}
-              <a href="http://www.templatewire.com" rel="nofollow">
-                TemplateWire
-              </a>
+              &copy; 2020 GramSakhi Website
             </p>
           </div>
         </div>

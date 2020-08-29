@@ -71,14 +71,15 @@ hr {
 }
 #menu.navbar-default {
 	background-color: #fff;
+	/* background: linear-gradient(110deg, #FF8813, #f5f827); */
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
 #menu a.navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
+	font-family: '', sans-serif;
+	font-size: 40px;
 	font-weight: 700;
-	color: #333;
+	color:#9D376E;
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -186,13 +187,20 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: url(../img/tempsnip.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	background-size: contain;
 }
+@media only screen and (max-width: 1125px) {
+	.intro {
+	  background-size: cover;
+	}
+  }
+
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
 }
@@ -240,9 +248,16 @@ header .intro-text {
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 /* About Section */
+#about > div > div > div:nth-child(1) > img{
+	width:250px;
+	height: 370px;
+	margin: 50px 50px;
+
+}
 #about {
 	padding: 100px 0;
 }
+
 #about h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
@@ -251,6 +266,7 @@ header .intro-text {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
+	
 }
 #about h2::after {
 	position: absolute;
@@ -271,7 +287,7 @@ header .intro-text {
 	content: '\f00c';
 	font-family: 'FontAwesome';
 	color: #5ca9fb;
-	font-size: 11px;
+	font-size: 14px;
 	font-weight: 300;
 	padding-right: 8px;
 }
@@ -422,6 +438,7 @@ header .intro-text {
 }
 #team .team-img {
 	width: 240px;
+	height:370px;
 }
 #team .thumbnail {
 	background: transparent;
@@ -434,7 +451,8 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	background: linear-gradient(to right, #9D376E 0%, #F4ADCD 100%);
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
@@ -572,9 +590,28 @@ color: #777;
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
 }
+@media only screen and (max-width: 1115px) {
+	#about > div > div > div:nth-child(1) > img{
+		margin-left:-16px;
+	
+	}
+  }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+	#about > div > div > div:nth-child(1) > img{
+		margin-left:-57px;
+	
+	}
+  }
+
+/* @media (max-width: 768px) {
 #about img {
 	margin: 50px 0;
 }
+#about > div > div > div:nth-child(1) > img{
+	margin-left:-57px;
+
 }
+} */
+
+

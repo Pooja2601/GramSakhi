@@ -1,12 +1,11 @@
 {
     "Header": {
-
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "ग्रामसखी",
+        "paragraph": "टेस्टी एंड होममेड"
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "माता बालक उत्कर्ष प्रतिष्ठान संस्था गेली 40 वर्षे महिला सक्षमिकरणाच्या उद्देशने काम करत आहे. त्यांच्या प्रेरणेतून आणि मार्गदर्शनातून 2015 साली उद्योजकता विकासाच्या दृष्टीने ग्राम सखीने स्वतंत्रपणे पहिले पाऊल टाकले.महिलांच्या सुप्त गुणांना वाव देऊन व प्रशिक्षणाद्वारे प्रशिक्षित केले.त्यातून काही दर्जेदार चविष्ट खाद्य पदार्थ निवडले.या पदार्थांचे ग्रामसखी फूड्स नावाने वितरण होत आहे. यातून 10 महिलां स्वत:च्या पायावर उभ्या आहेत. चकली व चिरोटे हे आमचे वैशिष्ट्यपूर्ण प्रोडक्ट असून पुणे, धुले, कोल्हापुर व सोलापुर येथे विक्रीसाठी उपलब्ध आहेत. ग्राहकांना चविष्ट आणि घरगुती पद्धतीचे ( टेस्टी अँड होम मेड) पदार्थ उपल्ब्ध करून देणे हेच उद्धीष्ट..",
         "Why": [
             "Lorem ipsum dolor",
             "Tempor incididunt",
@@ -85,52 +84,81 @@
         }
     ],
     "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
+            "img": "img/team/SanjeevniTai.jpg",
+            "name": "डॉ संजीवनीताई सतीश केळकर",
             "job": "Director"
         },
         {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
+            "img": "img/team/sujata.jpg",
+            "name": "सुजाता सुरेश कुरे",
             "job": "Senior Designer"
-        }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
         }
+       
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "address": " ग्रामसखी फुड, 172/6 ड ,सईसिद्धि  ,कडलास रोड ,पारे रस्ता ,सांगोला,जि. सोलापुर (महाराष्ट्र) 413307",
+        "phone": "+91 9730179726",
+        "email": "info@gramsakhi.com",
+        "facebook": "https://en-gb.facebook.com/login/",
+        "twitter": "https://www.whatsapp.com/?lang=en"
     },
-    "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    "Features": [
+        {
+            "img1":"img/testimonials/chakaliadd.jpeg",
+            "img": "img/testimonials/chakali.png",
+            "title": "चकली",
+            "text": "घटक-भाजणी, धने, जिरे, ओवा, तिखट, मीठ, तेल, तीळ ई."
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img1":"img/testimonials/Moringa.jpeg",
+            "img": "img/testimonials/moringac.png",
+            "title": "मोरिंगा चिक्की",
+            "text": "घटक-मोरिंगा पावडर, फ्लॅक्स सीड, सेसमे, गुड, घी ई."
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img1":"img/testimonials/chakaliadd.jpeg",
+            "img": "img/testimonials/Chirote-Recipe.png",
+            "title": "चिरोटे",
+            "text": "घटक-मैदा, रवा, साखर, कॉर्नफ्लोअर, दुध, तेल, साजुक तूप ई."
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img1":"img/testimonials/shankarpaliadd.jpeg",
+            "img": "img/testimonials/shakkar.png",
+            "title": "शंकरपाळी",
+            "text": "घटक-मैदा, साखर, रेफीईड तेल, तूप, वेलचीपूड ई."
+        },
+        {
+            "img1":"img/testimonials/chakaliadd.jpeg",
+            "img": "img/testimonials/bhakarwadi.png",
+            "title": "बाकरवडी",
+            "text": "घटक-मैदा, बेसन, सारण, मीठ, तेल ई."
+        },
+        {
+            "img1":"img/testimonials/chakaliadd.jpeg",
+            "img": "img/testimonials/raj.png",
+            "title": "राजगिरा लाडू",
+            "text": "घटक-राजगिरा ,गुळ, शेंगदाणा ई."
+        },
+        {
+            "img1":"img/testimonials/makaichiwda.jpeg",
+            "img": "img/testimonials/chiwda.png",
+            "title": "मकई चिवडा",
+            "text": "मका पोहे, शेंगदाणे, तीळ, रेफीईड तेल, धनेपुड, जीरेपुड, मीठ, तिखट, साखर, कडीपत्ता ई."
+        },
+        {
+            "img1":"img/testimonials/shengdanaadd.jpeg",
+            "img": "img/testimonials/peanut.png",
+            "title": "सोलापूर शेंगदाणा चटणी",
+            "text": "घटक-शेंगदाणा, तिखट, मीठ, लसूण ई."
+        },
+        {   
+            "img1":"img/testimonials/mathri.jpeg",
+            "img": "img/testimonials/mathri1.png",
+            "title": "मठरी",
+            "text": "घटक-मैदा, लाल तिखट, ओवा, मीठ, तेल, तीळ, चाट मसाला ई."
+            
         }
+       
+        
     ]
 }
