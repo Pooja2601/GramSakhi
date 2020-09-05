@@ -193,7 +193,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	background-size: contain;
+	/* background-size: contain; */
 }
 @media only screen and (max-width: 1125px) {
 	.intro {
@@ -261,6 +261,22 @@ header .intro-text {
 #about h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
+}
+#about #matabalak {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	
+}
+#about #matabalak::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	height: 4px;
+	width: 317px;
+	bottom: 0;
+	left: 0;
+	display: none;
 }
 #about h2 {
 	position: relative;

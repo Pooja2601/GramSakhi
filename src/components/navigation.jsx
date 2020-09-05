@@ -24,7 +24,7 @@ export class Navigation extends Component {
        <span> <img src="img/testimonials/tempsnip.png" style={{width:'150px', height:'66px', marginLeft:'-88px',marginTop:'-26px'}}/> </span>      ग्रामसखी  <sup>&#174;</sup><sub><span style={{marginLeft:'-37px'}}><img src="img/testimonials/fssai.png" style={{width:'50px'}}/></span><sub>21517215000658</sub></sub>
          </a>{" "}
             <br/>
-            <span style={{marginLeft:'90px', color:'#b1819f'}}>टेस्टी एंड होममेड</span>
+            <span style={{marginLeft:'90px', color:'#b1819f'}}>टेस्टी अँड होममेड</span>
           </div>
           <div
             className="collapse navbar-collapse"
