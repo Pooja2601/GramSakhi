@@ -4,8 +4,6 @@ import Button from  'react-bootstrap/Button';
 
 
 class BasicAd extends Component {
-
- 
   render() {
     return (
       <Modal.Dialog style={{position:'absolute', top:'139px', left:'375px', zIndex:'1', background: 'linear-gradient(to bottom right, red, yellow)'}} show={this.props.show} onHide={this.handleClose}>
