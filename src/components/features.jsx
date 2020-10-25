@@ -1,5 +1,25 @@
 import React, { Component } from "react";
+import Tooltip from '@material-ui/core/Tooltip';
+import {
+  createMuiTheme,
+  MuiThemeProvider,
+  withStyles
+} from "@material-ui/core/styles";
 import Modal from './Modal';
+
+
+const defaultTheme = createMuiTheme();
+const theme = createMuiTheme({
+  overrides: {
+    MuiTooltip: {
+      tooltip: {
+        fontSize: "1em",
+        color: "white",
+        backgroundColor: "black"
+      }
+    }
+  }
+});
 
 export class features extends Component {
   state = { show: false }
@@ -20,12 +40,17 @@ export class features extends Component {
             <h2 style={{marginTop:'30px', marginBottom:'-60px'}}>पदार्थ</h2>
           </div>
           <div className="row">
+          <MuiThemeProvider theme={defaultTheme}>
             {this.props.data
               ? this.props.data.map((d,i) => (
                   <div  key={`${d.title}-${i}`} className="col-lg-6 col-lg-4">
                     {" "}
+                    <MuiThemeProvider theme={theme}>
+                    <Tooltip title="क्लिक करा" arrow>
                     <a href={d.img1}> <img src={d.img} style={{width:"220px", height:'150px'}}/>
                     </a>
+                    </Tooltip>
+                    </MuiThemeProvider>
                     <h3>{d.title}</h3>
                     <p>{d.text}</p>
                   
@@ -40,10 +65,11 @@ export class features extends Component {
         </Modal>
          ))
          : "Loading..." } */}
+           
                   </div>
                 ))
               : "Loading..."}
-              
+                </MuiThemeProvider>
           </div>
         </div>
       </div>
