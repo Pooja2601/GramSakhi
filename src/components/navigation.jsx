@@ -60,7 +60,7 @@ export class Navigation extends Component {
           </div>
         </div>
         <div>
-        <marquee direction="right" behavior="alternate"  style={{marginLeft:'-15px',marginRight:'-56px', width:'103%',fontSize:'20px', marginBottom:'-16px', color:"white", background:'linear-gradient(to right, #9D376E 0%, #F4ADCD 100%)'}} hspace="-100" scrolldelay="100" height="30"><span><img src="img/testimonials/download.png" style={{width:"30px"}}/></span> क्रुपया जिल्हानिहाय डिस्ट्रीबुटर करिता पुढील क्रमांकावर संपर्क करा | <i class="fa fa-whatsapp" aria-hidden="true"></i> +91 97301 79726 <span><img src="img/testimonials/download.png" style={{width:"30px"}}/></span></marquee>
+        <marquee direction="right" behavior="alternate"  style={{marginLeft:'-15px',marginRight:'-56px', width:'103%',fontSize:'20px', marginBottom:'-16px', color:"white", background:'linear-gradient(to right, #9D376E 0%, #F4ADCD 100%)'}} hspace="-100" scrolldelay="100" height="30"><span><img src="img/testimonials/download.png" style={{width:"30px"}}/></span> क्रुपया जिल्हानिहाय वितरक करिता पुढील क्रमांकावर संपर्क करा | <i class="fa fa-whatsapp" aria-hidden="true"></i> +91 97301 79726 <span><img src="img/testimonials/download.png" style={{width:"30px"}}/></span></marquee>
         </div>
       </nav>
     );
